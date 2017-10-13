@@ -2,7 +2,7 @@
 
 import sys
 
-N, M = map(int, input().strip().split(' '))
+N, _ = map(int, input().strip().split(' '))
 
 seq = [0] * N
 
@@ -12,4 +12,4 @@ for line in map(str.strip, sys.stdin):
         seq[i] += k
 
 print(max(seq))
-# 2490686975
+# crush.2 2490686975
